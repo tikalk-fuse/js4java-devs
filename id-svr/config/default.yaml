@@ -1,0 +1,16 @@
+env:              prod
+web:
+  port:           3000
+
+logger:
+  level:          info
+  transports:
+    - type:       Console
+  defaultMeta:
+    service:      id-svc
+
+persistence:
+  redis:
+    host:         localhost
+    port:         6379
+  shaSalt:        s3crets8uce

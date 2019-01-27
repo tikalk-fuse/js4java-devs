@@ -1,0 +1,9 @@
+env:    prod
+web:
+  port: 3000
+
+logger:
+  level: info
+  transports: 
+   - type: Console
+     options: {}
