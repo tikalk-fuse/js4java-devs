@@ -1,0 +1,9 @@
+env:              prod
+web:
+  port:           3000
+
+persistence:
+  redis:
+    host:         localhost
+    port:         6379
+  shaSalt:        s3crets8uce
